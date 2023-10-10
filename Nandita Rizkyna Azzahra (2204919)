@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Nandita Rizkyna Azzahra (2204919)</title>
+    <title>Nandita rizkyna Azzahra (2204919)</title>
     <style>
     body {
         font-family: Arial, Helvetica, sans-serif;
@@ -132,7 +132,7 @@
 <h2>Form Pemesanan Coffee</h2>
 
 <div class="container">
-  <form>
+  <form action="/action_page.php" method="POST">
   <div class="row">
     <div class="col-25">
       <label for="nama">Nama Lengkap Pemesan</label>
@@ -168,11 +168,11 @@
     </div>
     <div class="col-25">
       <input type="radio" id="sedang" name="ukuran" value="Sedang">
-  <label for="sedang">Sedang</label><br>
+  <label for="sedang">Sedang</label><br>
     </div>
     <div class="col-25">
       <input type="radio" id="besar" name="ukuran" value="Besar">
-  <label for="besar">Besar</label><br>
+  <label for="besar">Besar</label><br>
     </div>
   </div>
   <br>
